@@ -4,8 +4,9 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="d0d789dbad8b4eda943c9a01a8dee4b4" Name="Diagram1" >
-        <EntityTypeShape EntityType="RealBaseModel.Depo_Result" Width="1.5" PointX="0.75" PointY="0.75" />
+      <Diagram DiagramId="f08c8261ea7e4058ad80c6e028fc84ed" Name="Diagram1">
+        <EntityTypeShape EntityType="FASModel.Fas_Depo_Test_Result" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FASModel.CT_Aq_Calibration" Width="1.5" PointX="3.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

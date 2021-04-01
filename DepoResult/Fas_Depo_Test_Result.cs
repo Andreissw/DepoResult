@@ -12,7 +12,7 @@ namespace DepoResult
     using System;
     using System.Collections.Generic;
     
-    public partial class Depo_Result
+    public partial class Fas_Depo_Test_Result
     {
         public int SN { get; set; }
         public string ResultFileName { get; set; }

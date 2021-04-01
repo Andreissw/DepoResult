@@ -13,10 +13,10 @@ namespace DepoResult
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class RealBaseEntities : DbContext
+    public partial class FASEntities : DbContext
     {
-        public RealBaseEntities()
-            : base("name=RealBaseEntities")
+        public FASEntities()
+            : base("name=FASEntities")
         {
         }
     
@@ -25,6 +25,7 @@ namespace DepoResult
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Depo_Result> Depo_Result { get; set; }
+        public virtual DbSet<Fas_Depo_Test_Result> Fas_Depo_Test_Result { get; set; }
+        public virtual DbSet<CT_Aq_Calibration> CT_Aq_Calibration { get; set; }
     }
 }
